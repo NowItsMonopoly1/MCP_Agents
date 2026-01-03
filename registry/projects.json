@@ -1,0 +1,23 @@
+{
+  "primus-home-pro": {
+    "root": "../primus-home-pro",
+    "read": ["src", "README.md", "package.json"],
+    "domain": "saas",
+    "status": "beta",
+    "revenue_ready": false
+  },
+  "primus-quant": {
+    "root": "../primus-quant",
+    "read": ["src", "strategies", "README.md"],
+    "domain": "trading",
+    "status": "alpha",
+    "revenue_ready": true
+  },
+  "primus-insights": {
+    "root": "C:/Users/Donte/PrimusInsights",
+    "read": ["app", "src", "README.md", "package.json"],
+    "domain": "analytics",
+    "status": "beta",
+    "revenue_ready": true
+  }
+}

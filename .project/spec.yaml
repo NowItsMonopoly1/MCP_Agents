@@ -1,0 +1,8 @@
+name: primus-os-mcp
+description: MCP server for Primus OS using HTTP transport
+base:
+  image: node:18
+apps:
+  - name: mcp-server
+    port: 3000
+    command: node server.js

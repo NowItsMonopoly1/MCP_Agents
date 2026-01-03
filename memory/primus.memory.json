@@ -1,0 +1,20 @@
+{
+  "operator": {
+    "principles": [
+      "Disciplined execution",
+      "Risk management",
+      "Parity across machines",
+      "Executable actions only"
+    ],
+    "constraints": {
+      "max_risk": 0.5,
+      "line_limits": 60,
+      "module_system": "ESM only"
+    },
+    "active_systems": [
+      "docaudit",
+      "quant",
+      "ops"
+    ]
+  }
+}

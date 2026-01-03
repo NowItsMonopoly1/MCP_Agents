@@ -1,0 +1,14 @@
+{"ts":"2025-12-24T15:02:57.321Z","phase":"request","tool":"projects","args":{"action":"inspect"}}
+{"ts":"2025-12-24T15:02:57.322Z","phase":"result","tool":"projects","result":{"actions":[{"type":"reject","reason":"Unknown project"}]}}
+{"ts":"2025-12-24T15:06:36.886Z","phase":"request","tool":"projects","args":{"action":"inspect"}}
+{"ts":"2025-12-24T15:06:36.888Z","phase":"result","tool":"projects","result":{"actions":[{"type":"reject","reason":"Unknown project"}]}}
+{"ts":"2025-12-24T15:07:07.351Z","phase":"request","tool":"projects","args":{"action":"inspect","name":"primus insights"}}
+{"ts":"2025-12-24T15:07:07.351Z","phase":"result","tool":"projects","result":{"actions":[{"type":"reject","reason":"Unknown project"}]}}
+{"ts":"2025-12-24T15:50:17.204Z","phase":"request","tool":"docaudit","args":{"text":""}}
+{"ts":"2025-12-24T15:50:17.206Z","phase":"result","tool":"docaudit","result":{"actions":[{"type":"analyze_document","flags":[]}]}}
+{"ts":"2025-12-24T15:51:07.118Z","phase":"request","tool":"quant","args":{"inputs":{}}}
+{"ts":"2025-12-24T15:51:07.119Z","phase":"result","tool":"quant","result":{"actions":[{"type":"council_verdict"}]}}
+{"ts":"2025-12-24T16:23:07.406Z","phase":"request","tool":"projects","args":{"action":"inspect","name":"primus insights","path":"C:\\Users\\Donte\\PrimusInsights"}}
+{"ts":"2025-12-24T16:23:07.407Z","phase":"result","tool":"projects","result":{"actions":[{"type":"reject","reason":"Unknown project"}]}}
+{"ts":"2025-12-25T00:05:22.646Z","phase":"http_request","endpoint":"/change-order-draft","body":{"notes":"Added 4 emergency fixtures and moved 2 exit signs per GC request","projectId":"TI-2024-042"}}
+{"ts":"2025-12-25T00:05:22.648Z","phase":"http_response","endpoint":"/change-order-draft","result":{"actions":[{"type":"change_order_draft_created","draft":{"id":"draft-81cecb46-ae68-4683-bf10-4d29e1f4e986","type":"CHANGE_ORDER_DRAFT","projectId":"TI-2024-042","createdAt":"2025-12-25T00:05:22.648Z","createdBy":"ui:user","status":"DRAFT","payload":{"summary":"Added 4 emergency fixtures and moved 2 exit signs per GC request","line_items":[{"description":"Add 4x emergency fixtures and moved 2 exit signs per GC request","labor_hours":2,"materials":["emergency fixtures and moved 2 exit signs per GC request"],"notes":"Extracted from field notes"},{"description":"Relocate 2x exit signs per GC request","labor_hours":1,"materials":[],"notes":"Extracted from field notes"}],"original_notes":"Added 4 emergency fixtures and moved 2 exit signs per GC request"}}}]}}
